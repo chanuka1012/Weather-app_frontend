@@ -15,6 +15,21 @@
 }
 
 .search-bar img {
-    width: 20px; /* Adjust size as needed */
-    height: 20px;
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #635d65;
+    cursor: pointer;
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: rgb(9, 39, 39);
+    background: #d2d4d8;
+    font-size: 18px;
 }
